@@ -1,0 +1,91 @@
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height:100%; 
+     
+}
+
+#From {
+    height:100%;
+    background:#f17cf5; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow:scroll;
+}
+
+.form  {
+    flex:1;
+    max-width:600px;
+    border-radius: 10px;
+    background-color: #faa7f3;
+    border: 1px solid #eca7dd;
+    margin-top: auto;
+    margin-bottom:  auto;
+  }  
+
+.form-body {
+    background:rgb(241, 224, 236);
+    padding:5px 10px;
+}
+
+.row {
+    display:flex; 
+}
+.input-group {
+    font-weight: bold;
+    flex:1;  
+    display:flex;
+    flex-direction:column; 
+    margin:8px 5px;
+}
+
+.radio-group, .checkbox-group {
+    display:flex;
+  }
+  
+  .radio-group div, .checkbox-group div {
+    flex:1;
+  }
+  
+  .radio-group label, .checkbox-group label  {
+    color:#f18fdc;
+    cursor:pointer;
+  }
+.form-footer {
+    display:flex;
+    justify-content: flex-end;
+    padding:10px;
+}
+
+label {
+  color:#e70cb8;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] ,
+input[type="password"],
+input[type="file"],
+input[type="number"],
+select,
+textarea  {
+width:100%;
+
+font-size: 12px;
+height: 34px;
+padding-left: 10px;
+padding-right: 10px;
+color: #df129a;
+border: 1px solid #eb9bdd;
+border-radius: 4px;
+background: white;
+outline: none;
+}
+textarea {
+  height:100px;
+}
